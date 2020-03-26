@@ -6,7 +6,8 @@
   background-color: white;
   margin: 0 auto;
   margin-top: 100px;
-  max-width: 25%;
+  width: 100%;
+  max-width: 400px;
   font-weight: 300;
 }
 

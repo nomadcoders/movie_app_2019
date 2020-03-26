@@ -1,5 +1,4 @@
 .movies .movie {
-  width: 45%;
   background-color: white;
   margin-bottom: 70px;
   font-weight: 300;
@@ -11,9 +10,9 @@
 }
 
 .movies .movie a {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) 2fr;
+  grid-gap: 20px;
   text-decoration: none;
   color: inherit;
 }
@@ -45,6 +44,7 @@
   padding: 0;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
   margin: 5px 0px;
 }
 
